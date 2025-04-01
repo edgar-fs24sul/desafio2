@@ -1,0 +1,79 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4b3c39; 
+    /* #473836 */
+}
+
+.cartao {
+    background: white;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cartao-cont {
+    padding: 20px;
+}
+
+.cartao-titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.preco-cont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.preco {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.quant {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.descricao {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.comprar-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8B5E3C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comprar-button:hover {
+    background-color: #724c31;
+}
